@@ -1,4 +1,4 @@
-## Hi Welcome to my world👋
+## Hi Welcome to my world 👋
 
 <!-- 动态打字效果标题 -->
 <p align="center">
@@ -20,7 +20,7 @@
 
 ---
 
-## 🛡️ 关于我
+## 🏄‍♂️ 关于我
 
 > **"零零后，具备甲方安全建设与乙方安全运营经验，专注于渗透测试、应急响应及安全开发，多次参与国家级重保与HW行动，秋招已OC，即将毕业的大学生一枚"**
 
@@ -82,12 +82,13 @@
 ---
 
 ## 🚀 精选项目和知识积累
+
 <table>
   <tr>
     <td width="50%">
       <h3 align="center">🔧 微信公众号</h3>
       <div align="center">
-        <a href="https://mp.weixin.qq.com/s/Mx0inKTIqnXo6Ak1T9-RRw"><!-- 替换为具体仓库地址 -->
+        <a href="https://mp.weixin.qq.com/s/Mx0inKTIqnXo6Ak1T9-RRw">
           <img src="https://img.shields.io/badge/WeChat-网络安全笔记-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"/>
         </a>
         <p>记录我的网安生涯:从入门到实战的学习笔记、攻防工具踩坑日记与技术思考，目前主要分享网络安全必备工具和AI安全攻防研究工具。</p>
@@ -96,7 +97,7 @@
     <td width="50%">
       <h3 align="center">🛡️ GMF</h3>
       <div align="center">
-        <a href="https://github.com/EdinLyle/GMF"><!-- 替换为具体仓库地址 -->
+        <a href="https://github.com/EdinLyle/GMF">
           <img src="https://img.shields.io/badge/Electron-提示词注入管理器-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="GMF"/>
         </a>
         <p>GMF（提示词注入管理器）是一个功能强大的跨平台桌面应用程序，专门设计用于测试、管理和防御提示词注入攻击。它提供了一个综合平台来创建、组织、测试和分析各种提示词注入技术，帮助用户理解和防御AI系统中的安全漏洞。</p>
@@ -107,7 +108,7 @@
     <td width="50%">
       <h3 align="center">🦞 焦糖布丁</h3>
       <div align="center">
-        <a href="https://github.com/EdinLyle/Caramel-Pudding"><!-- 替换为具体仓库地址 -->
+        <a href="https://github.com/EdinLyle/Caramel-Pudding">
           <img src="https://img.shields.io/badge/Security-OpenClaw安全基线-00D9FF?style=for-the-badge&logo=shield&logoColor=white" alt="Caramel Pudding"/>
         </a>
         <p>焦糖布丁（Caramel Pudding）是一款专用于的OpenClaw AI Gateway安全基线和漏洞检测工具，致力于为OpenClaw生态系统提供全面的安全保障。它采用多维度检测策略，深入分析OpenClaw的各个安全层面，帮助用户快速识别并修复潜在的安全风险。</p>
@@ -116,7 +117,7 @@
     <td width="50%">
       <h3 align="center">📚 安全知识库</h3>
       <div align="center">
-        <a href="https://ima.qq.com/wiki/?shareId=78720ffae80d296d4fc59b391916edad6f2036e7542cc7178bca3be6a429df85"><!-- 替换为具体仓库地址 -->
+        <a href="https://ima.qq.com/wiki/?shareId=78720ffae80d296d4fc59b391916edad6f2036e7542cc7178bca3be6a429df85">
           <img src="https://img.shields.io/badge/Knowledge-安全全栈知识库-000000?style=for-the-badge&logo=obsidian&logoColor=white" alt="Knowledge Base"/>
         </a>
         <p>整合日常学习、工作及网络所得笔记、安全大佬分析报告、面试题与技巧文档,安全大厂与安全标准，标准指南，按渗透、安服、运营、代码审计、内网、移动、应急、工控、AI/LLM安全、数据、业务、情报、分析、黑灰产对抗、SOC、溯源、钓鱼、区块链及加密货币等方向，系统构建个人持续迭代的安全全栈知识体系。</p>
@@ -124,7 +125,6 @@
     </td>
   </tr>
 </table>
-
 ---
 
 ## 📈 最近活动
