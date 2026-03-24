@@ -20,7 +20,7 @@
 
 ---
 
-## 🛡️ About Me
+## 🛡️ 关于我
 
 > **"零零后，具备甲方安全建设与乙方安全运营经验，专注于渗透测试、应急响应及安全开发，多次参与国家级重保与HW行动，秋招已OC，即将毕业的大学生一枚"**
 
@@ -31,7 +31,7 @@
 
 ---
 
-## 🎯 Expertise
+## 🎯 开发技能
 
 <!-- 技能图标 -->
 <p align="center">
@@ -52,7 +52,7 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub统计
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EdinLyle&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9" alt="GitHub Stats"/>
@@ -66,7 +66,7 @@
 
 ---
 
-## 🏆 Achievements & Certifications
+## 🏆 成就与奖项
 
 <p align="center">
   <img src="https://img.shields.io/badge/CNVD-10%2B%20Vulnerabilities-critical?style=flat-square&logo=shield&logoColor=white" alt="CNVD"/>
@@ -81,8 +81,7 @@
 
 ---
 
-## 🚀 Featured Projects
-
+## 🚀 精选项目和知识积累
 <table>
   <tr>
     <td width="50%">
@@ -128,7 +127,7 @@
 
 ---
 
-## 📈 Recent Activity
+## 📈 最近活动
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=EdinLyle&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff69b4&currStreakLabel=00d9ff" alt="GitHub Streak"/>
@@ -136,7 +135,7 @@
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 联系我
 
 <p align="center">
   <a href="https://github.com/EdinLyle">
