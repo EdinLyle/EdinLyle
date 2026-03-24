@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-<!--
 &lt;!-- 动态打字效果标题 --&gt;
 &lt;p align="center"&gt;
   &lt;img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Security+Engineer+%7C+Blue+Team;Industrial+Security+%7C+Incident+Response;Automation+%7C+Threat+Hunting;Lifelong+Learner+%F0%9F%9A%80" alt="Typing SVG" /&gt;
@@ -175,4 +174,4 @@
 &lt;p align="center"&gt;
   &lt;img src="https://komarev.com/ghpvc/?username=EdinLyle&color=00d9ff&style=flat-square&label=Profile%20Views" alt="Profile Views Counter"/&gt;
 &lt;/p&gt;
--->
+
