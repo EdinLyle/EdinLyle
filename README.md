@@ -2,7 +2,7 @@
 
 <!-- 动态打字效果标题 -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Security+Engineer+%7C+Blue+Team;Industrial+Security+%7C+Incident+Response;Automation+%7C+Threat+Hunting;Lifelong+Learner+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Security Engineer;Security Development | Incident Response; Penetration Testing | Security Operations; Lifelong Learner 🚀" alt="Typing SVG" />
 </p>
 
 <!-- 动态横幅 -->
