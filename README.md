@@ -35,7 +35,7 @@
 
 <!-- 技能图标 -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java，go,vue,js,JavaScript,TypeScript,linux,bash,docker,kubernetes,git,github,md,mysql&theme=dark" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=python,java,go,vue,js,ts,linux,bash,docker,kubernetes,git,github,md,mysql&theme=dark" alt="Tech Stack"/>
 </p>
 
 ### 🔒 安全领域
