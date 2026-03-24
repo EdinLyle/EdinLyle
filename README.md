@@ -7,7 +7,7 @@
 
 <!-- 动态横幅 -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:0099CC,100:0066AA&height=200&section=header&text=EdinLyle&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20%7C%20Automation%20%7C%20Open%20Source&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:0099CC,100:0066AA&height=200&section=header&text=EdinLyle&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Security%20%7C%20DevSecOps%20%7C%20AI%20Security%20%7C%20Full-Stack%20Knowledge&descAlignY=55&descSize=18" width="100%"/>
 </p>
 
 <!-- 徽章区域 -->
