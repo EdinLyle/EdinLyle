@@ -40,8 +40,8 @@
 
 ### 🔒 安全领域
 - **工控安全 (OT Security)**：工控设备防护、产线安全运营、ICS 威胁响应
-- **应急响应 (Incident Response)**：挖矿/勒索/内存马处置、Root Cause 分析、SOP 制定
-- **安全运营 (SOC)**：国家重保值守、多厂商安全设备 (EDR/XDR/NDR) 运营
+- **应急响应 (Incident Response)**：挖矿/勒索/内存马处置、SOP 制定等
+- **安全运营 (SOC)**：国家重保值守、多厂商安全设备 (EDR/XDR/NDR) 运营等
 - **渗透测试**：Web 渗透、漏洞挖掘、SRC 漏洞提交 (CNVD/补天/教育 SRC/企业SRC)
 
 ### 🛠️ 技术能力
@@ -155,7 +155,7 @@
 ## 💡 Tech Philosophy
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=安全开发驱动防御升级，AI研究反哺攻防对抗，持续沉淀可复用的知识体系&author=EdinLyle" alt="Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=安全开发驱动防御升级，AI研究反哺攻防对抗，持续沉淀可复用的知识体系&author=0x八月" alt="Quote"/>
 </p>
 
 <p align="center">
