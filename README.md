@@ -193,7 +193,7 @@
 
 <div align="center">
   <a href="https://github.com/EdinLyle?tab=repositories">
-    <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=100&section=footer&text=👀 查看更多项目→&fontSize=30&fontColor=white&animation=twinkling" />
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=100&section=footer&text=查看更多项目→&fontSize=30&fontColor=white&animation=twinkling" />
   </a>
 </div>
 
