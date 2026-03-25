@@ -213,11 +213,6 @@
   </a>
 </div>
 
-<!-- 底部动态横幅 -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066AA,50:0099CC,100:00D9FF&height=120&section=footer&animation=fadeIn" width="100%"/>
-</p>
-
 <!-- 访问计数器 -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=EdinLyle&color=00d9ff&style=flat-square&label=Profile%20Views" alt="Profile Views Counter"/>
@@ -225,4 +220,9 @@
 
 <p align="center">
   <i>✨ 感谢访问！如果觉得有用，欢迎 Star 我的项目 ✨</i>
+</p>
+
+<!-- 底部动态横幅 -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066AA,50:0099CC,100:00D9FF&height=120&section=footer&animation=fadeIn" width="100%"/>
 </p>
