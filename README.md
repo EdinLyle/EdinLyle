@@ -1,4 +1,4 @@
-## Hi Welcome to my world 👋
+## Hi, Welcome to my world 👋
 
 <!-- 动态打字效果标题 -->
 <p align="center">
@@ -9,8 +9,8 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:0099CC,100:0066AA&height=200&section=header&text=EdinLyle&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Security%20%7C%20DevSecOps%20%7C%20AI%20Security%20%7C%20Full-Stack%20Knowledge&descAlignY=55&descSize=18" width="100%"/>
 </p>
-
 <!-- 徽章区域 -->
+
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://img.shields.io/badge/Profile%20Views-Active-blue?style=for-the-badge&logo=github" alt="Profile Views"/></a>
   <img src="https://img.shields.io/badge/Focus-Cybersecurity-00D9FF?style=for-the-badge&logo=shield&logoColor=white" alt="Focus"/>
@@ -20,49 +20,49 @@
 
 ---
 
-## 🏄‍♂️ 关于我
+## 🏄‍♂️ 关于我 
 
-> **"零零后，具备甲方安全建设与乙方安全运营经验，专注于渗透测试、应急响应及安全开发，多次参与国家级重保与HW行动，秋招已OC，即将毕业的大学生一枚"**
+> **「零零后安全工程师，具备甲方安全建设与乙方安全运营经验，专注渗透测试 / 应急响应 / 安全开发，多次参与国家级重保与 HW 行动，即将毕业的大学生一枚。」**
 
-🔹 **网络安全工程师** | 专注于应急响应与渗透测试，安全开发等等(菜鸡一个)  
-🔹 **自动化工具开发者** | 用代码解决重复性安全工作，提升渗透测试与应急响应效率  
-🔹 **技术布道者** | CSDN 年度博客之星 Top 1%，分享安全技术与实战经验  
-🔹 **开源贡献者** | 安全工具开源，助力社区安全能力建设(几乎没有慢慢来哈哈哈)  
+🔹 **网络安全工程师**｜专注于应急响应与渗透测试，安全开发等等（菜鸡一个，持续进化中）
+🔹 **自动化工具开发者**｜用代码解决重复性安全工作，提升渗透测试与应急响应效率
+🔹 **技术布道者**｜CSDN 年度博客之星 Top 1%，长期输出安全技术与实战经验
+🔹 **开源贡献者**｜开源安全工具与知识库，助力社区安全能力建设（慢慢来哈哈哈）
 
 ---
 
-## 🎯 开发技能
+## 🎯 技能与技术栈 
 
-<!-- 技能图标 -->
+### 💻 技术栈 
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,go,vue,js,ts,linux,bash,docker,kubernetes,git,github,md,mysql&theme=dark" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=python,java,go,vue,js,ts,html,css,bootstrap,tailwind,linux,bash,regex,docker,kubernetes,nginx,git,github,gitlab,idea,vscode,md,mysql,redis,postman,pycharm&theme=dark" alt="Tech Stack"/>
 </p>
 
-### 🔒 安全领域
+### 🔒 安全领域 
+
 - **工控安全 (OT Security)**：工控设备防护、产线安全运营、ICS 威胁响应
-- **应急响应 (Incident Response)**：挖矿/勒索/内存马处置、SOP 制定等
-- **安全运营 (SOC)**：国家重保值守、多厂商安全设备 (EDR/XDR/NDR) 运营等
-- **渗透测试**：Web 渗透、漏洞挖掘、SRC 漏洞提交 (CNVD/补天/教育 SRC/企业SRC)
+- **应急响应 (Incident Response)**：挖矿 / 勒索 / 内存马处置，SOP 制定与落地
+- **安全运营 (SOC)**：国家重保值守，多厂商 EDR / XDR / NDR 日常运营与联动
+- **渗透测试 (Penetration Testing)**：Web 渗透、漏洞挖掘、SRC 漏洞提交（CNVD / 补天 / 教育 SRC / 企业 SRC）
 
-### 🛠️ 技术能力
-- **安全工具开发**：Python/Tkinter GUI/Java 工具、自动化脚本、漏洞扫描器
-- **恶意软件分析**：静动态分析、病毒样本取证、蠕虫/挖矿专项处置
-- **代码审计**：Fortify 自动化审计 + 手工审计，Java/Python 安全开发
-- **AI 安全**：大模型提示注入攻防、AI 辅助安全工具开发
+### 🛠️ 技术能力 
+
+- **安全工具开发**：Python / Tkinter GUI / Java 工具，自动化脚本与漏洞扫描器
+- **恶意软件分析**：静态 + 动态分析、病毒样本取证、蠕虫 / 挖矿专项处置
+- **代码审计 (Code Review)**：Fortify 自动化审计 + 手工审计，Java / Python 安全开发
+- **AI 安全 (AI Security)**：大模型提示注入攻防、AI 辅助安全工具开发、LLM 安全基线
 
 ---
 
-## 📊 GitHub统计
+## 🎯 近期动态 
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EdinLyle&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Top Languages"/>
-</p>
-
-<!-- 贡献图 -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EdinLyle&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff69b4" width="95%" alt="Contribution Graph"/>
-</p>
+- 🧪 正在折腾：
+  - 提示词注入攻防与 AI Gateway 安全基线工具（GMF / Caramel Pudding）
+  - 安全知识库体系化整理与面向安全新人的知识地图
+- 📚 持续更新：
+  - CSDN / 微信公众号：实战笔记、攻防工具踩坑记录、安全工具 Review
+  - 安全全栈知识库：按领域拆分渗透、安服、运营、代码审计、工控、AI/LLM 等方向
 
 ---
 
@@ -70,18 +70,18 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/CNVD-10%2B%20Vulnerabilities-critical?style=flat-square&logo=shield&logoColor=white" alt="CNVD"/>
-  <img src="https://img.shields.io/badge/NISP%20Level%202-Information%20Security-blue?style=flat-square&logo=security&logoColor=white" alt="NISP"/>
+  <img src="https://img.shields.io/badge/NISP%20Level%202-Information%20Security-0066AA?style=flat-square&logo=security&logoColor=white" alt="NISP"/>
   <img src="https://img.shields.io/badge/Alibaba%20Cloud-Expert%20Blogger-orange?style=flat-square&logo=alibabadotcom&logoColor=white" alt="Alibaba Cloud"/>
   <img src="https://img.shields.io/badge/Huawei%20Cloud-Expert%20Blogger%20%26%20Micro%20Certification-red?style=flat-square&logo=huawei&logoColor=white" alt="Huawei Cloud"/>
 </p>
 
 - 🥉 **省级奖项**：中国大学生计算机设计大赛、工业互联网安全赛项、工程实践与创新能力大赛
-- 📝 **原创漏洞报送**：浙江大学原创漏洞报送证书、CNVD 通用/事件型漏洞、企业SRC等等
-- 🌟 **社区荣誉**：CSDN 年度博客之星 Top 1%、阿里云与华为云专家博主(菜鸡一个)
+- 📝 **原创漏洞报送**：浙江大学原创漏洞报送证书，CNVD 通用 / 事件型漏洞，多家企业 SRC 漏洞
+- 🌟 **社区荣誉**：CSDN 年度博客之星 Top 1%，阿里云 & 华为云专家博主（菜鸡一个，继续搬砖）
 
 ---
 
-## 🚀 精选项目和知识积累
+## 🚀 精选项目 & 知识积累 
 
 <table>
   <tr>
@@ -128,7 +128,20 @@
 
 ---
 
-## 📈 最近活动
+## 🛑 Legal Disclaimer | 合法性声明
+
+> **⚠️ 声明：本个人主页及其所有内容仅用于技术研究与学习交流，不构成对任何现实攻防行为的授权或鼓励。**
+
+- 目前不参与 HVV/红队/GFYL 若溯源到ID及Github等 攻击事件与本人无关 作者仅闲暇时间开发工具而已。
+- 本仓库中的所有 **代码 / 脚本 / 工具 / 文章 / 笔记** 仅供 **合规前提下的学习与研究使用**。
+- 使用者在使用相关内容时，应严格遵守所在国家和地区的法律法规及相关安全规范。
+- 因违反上述说明或法律法规所产生的一切后果，均由使用者自行承担，与本人无关，本人亦 **不承担任何连带责任**。
+
+> I do not participate in any real-world offensive engagements, penetration tests, or unauthorized activities.
+> All code, scripts, and content in this repository are provided **for educational and research purposes only**.
+> Any misuse or illegal usage is strictly prohibited. I explicitly disclaim any liability for misuse or damages caused by others.
+
+## 📈 最近活动 
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=EdinLyle&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff69b4&currStreakLabel=00d9ff" alt="GitHub Streak"/>
@@ -136,16 +149,28 @@
 
 ---
 
-## 🌐 联系我
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Most Used Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EdinLyle&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff69b4" width="95%" alt="Contribution Graph"/>
+</p>
+
+---
+
+## 🌐 联系我 Contact
 
 <p align="center">
   <a href="https://github.com/EdinLyle">
     <img src="https://img.shields.io/badge/GitHub-EdinLyle-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="[你的CSDN博客链接]"><!-- 替换为你的CSDN主页 -->
+  <a href="https://blog.csdn.net/"><!-- TODO: 替换为你的 CSDN 主页链接 -->
     <img src="https://img.shields.io/badge/CSDN-Blog%20Star-FC5531?style=for-the-badge&logo=blog&logoColor=white" alt="CSDN"/>
   </a>
-  <a href="mailto:3193698455@qq.com"><!-- 替换为你的邮箱 -->
+  <a href="mailto:3193698455@qq.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
@@ -162,6 +187,32 @@
   <i>🌱 持续学习 · 🔍 保持好奇 · 🛡️ 守护安全 · 🤝 开放共享</i>
 </p>
 
+---
+
+## 🎯 近期动态
+
+<div align="center">
+  <a href="https://github.com/EdinLyle?tab=repositories">
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=100&section=footer&text=👀 查看更多项目→&fontSize=30&fontColor=white&animation=twinkling" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <!-- 这里的蛇形贡献图需要你部署自己的 snake.svg，可参考 onewinner 的玩法 -->
+  <!-- 备选：先复用 onewinner 的链接调试效果，用好后再换成自己的仓库路径 -->
+  <img src="https://raw.githubusercontent.com/EdinLyle/EdinLyle/output/snake.svg" alt="Snake animation" width="80%" />
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/EdinLyle">
+    <img src="https://img.shields.io/badge/-GitHub%20Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
+
 <!-- 底部动态横幅 -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066AA,50:0099CC,100:00D9FF&height=120&section=footer&animation=fadeIn" width="100%"/>
@@ -170,4 +221,8 @@
 <!-- 访问计数器 -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=EdinLyle&color=00d9ff&style=flat-square&label=Profile%20Views" alt="Profile Views Counter"/>
+</p>
+
+<p align="center">
+  <i>✨ 感谢访问！如果觉得有用，欢迎 Star 我的项目 ✨</i>
 </p>
