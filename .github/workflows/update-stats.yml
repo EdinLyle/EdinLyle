@@ -2,13 +2,14 @@ name: Update GitHub Stats Images
 
 on:
   schedule:
-    # 每 6 小时自动更新一次（可根据需要调整）
     - cron: '0 */6 * * *'
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch:
   push:
-    branches:
-      - main
-      - master
+    branches: [main, master]
+
+# 添加这个环境变量配置
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: write
@@ -18,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # v4 支持 Node.js 24，只是默认没启用
 
       - name: Create assets directory
         run: mkdir -p assets
@@ -29,20 +30,10 @@ jobs:
           "https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" \
           --retry 3 --retry-delay 2
 
-      - name: Check if files changed
-        id: verify-changed-files
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
-
       - name: Commit and push changes
-        if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add assets/
-          git commit -m "🤖 自动更新 GitHub 统计图片 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git diff --cached --quiet || git commit -m "🤖 自动更新 GitHub 统计图片 - $(date '+%Y-%m-%d %H:%M:%S')"
           git push
