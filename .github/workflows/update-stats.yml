@@ -4,10 +4,7 @@ on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
-  push:
-    branches: [main, master]
 
-# 添加这个环境变量配置
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -19,21 +16,58 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # v4 支持 Node.js 24，只是默认没启用
+        uses: actions/checkout@v4
 
       - name: Create assets directory
         run: mkdir -p assets
 
-      - name: Download Top Languages Stats
+      - name: Download Top Languages Stats with validation
         run: |
-          curl -s -o assets/top-langs.svg \
-          "https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" \
-          --retry 3 --retry-delay 2
+          SVG_URL="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9"
+          TEMP_FILE="assets/top-langs-temp.svg"
+          FINAL_FILE="assets/top-langs.svg"
+          
+          # 下载并检查 HTTP 状态码
+          HTTP_CODE=$(curl -s -o "$TEMP_FILE" -w "%{http_code}" "$SVG_URL" --retry 3 --retry-delay 2 --max-time 10)
+          
+          echo "HTTP Status Code: $HTTP_CODE"
+          
+          # 检查是否成功 (200) 且文件包含有效的 SVG 标签
+          if [ "$HTTP_CODE" -eq 200 ] && grep -q "<svg" "$TEMP_FILE"; then
+            echo "✅ 下载成功，验证通过"
+            mv "$TEMP_FILE" "$FINAL_FILE"
+          else
+            echo "❌ API 返回错误或无效内容 (HTTP $HTTP_CODE)"
+            echo "文件内容预览:"
+            head -n 5 "$TEMP_FILE" || echo "文件为空或不存在"
+            
+            # 清理临时文件
+            rm -f "$TEMP_FILE"
+            
+            # 如果已存在旧版本，保留它
+            if [ -f "$FINAL_FILE" ]; then
+              echo "保留现有的 SVG 文件"
+            else
+              echo "创建占位 SVG（首次运行失败）"
+              echo '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200"><text x="50%" y="50%" text-anchor="middle" fill="#c9d1d9" font-family="sans-serif">Stats temporarily unavailable</text></svg>' > "$FINAL_FILE"
+            fi
+            exit 0
+          fi
+
+      - name: Check if files changed
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain assets/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/
-          git diff --cached --quiet || git commit -m "🤖 自动更新 GitHub 统计图片 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "🤖 自动更新 GitHub 统计图片 - $(date '+%Y-%m-%d %H:%M:%S')"
           git push
