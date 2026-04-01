@@ -1,73 +1,71 @@
-name: Update GitHub Stats Images
+name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
-permissions:
-  contents: write
+    - cron: "0 */6 * * *"      # 每 6 小时更新一次
+  workflow_dispatch:            # 支持手动触发
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
-  update-stats:
+  generate:
     runs-on: ubuntu-latest
+    env:
+      # 提前适配 Node.js 24
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false   # 避免凭据冲突
 
-      - name: Create assets directory
-        run: mkdir -p assets
+      - name: Create dist directory
+        run: mkdir -p dist
 
-      - name: Download Top Languages Stats with validation
+      - name: Download Top Languages Stats
+        id: download-stats
         run: |
-          SVG_URL="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9"
-          TEMP_FILE="assets/top-langs-temp.svg"
-          FINAL_FILE="assets/top-langs.svg"
+          API_URL="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9"
           
-          # 下载并检查 HTTP 状态码
-          HTTP_CODE=$(curl -s -o "$TEMP_FILE" -w "%{http_code}" "$SVG_URL" --retry 3 --retry-delay 2 --max-time 10)
+          echo "Downloading from API..."
           
-          echo "HTTP Status Code: $HTTP_CODE"
+          # 下载并捕获 HTTP 状态码
+          HTTP_CODE=$(curl -sSL -o dist/top-langs.svg -w "%{http_code}" \
+            --retry 3 --retry-delay 2 --max-time 15 \
+            "$API_URL")
           
-          # 检查是否成功 (200) 且文件包含有效的 SVG 标签
-          if [ "$HTTP_CODE" -eq 200 ] && grep -q "<svg" "$TEMP_FILE"; then
-            echo "✅ 下载成功，验证通过"
-            mv "$TEMP_FILE" "$FINAL_FILE"
+          echo "HTTP Status: $HTTP_CODE"
+          
+          # 检查文件是否为有效 SVG（不是 HTML 错误页）
+          if [ "$HTTP_CODE" -eq 200 ] && grep -q "<svg" dist/top-langs.svg; then
+            echo "✅ 下载成功且验证通过"
+            echo "success=true" >> $GITHUB_OUTPUT
           else
-            echo "❌ API 返回错误或无效内容 (HTTP $HTTP_CODE)"
-            echo "文件内容预览:"
-            head -n 5 "$TEMP_FILE" || echo "文件为空或不存在"
-            
-            # 清理临时文件
-            rm -f "$TEMP_FILE"
-            
-            # 如果已存在旧版本，保留它
-            if [ -f "$FINAL_FILE" ]; then
-              echo "保留现有的 SVG 文件"
-            else
-              echo "创建占位 SVG（首次运行失败）"
-              echo '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200"><text x="50%" y="50%" text-anchor="middle" fill="#c9d1d9" font-family="sans-serif">Stats temporarily unavailable</text></svg>' > "$FINAL_FILE"
-            fi
-            exit 0
+            echo "❌ API 返回错误或无效内容"
+            echo "文件内容预览："
+            head -n 10 dist/top-langs.svg || echo "文件为空"
+            echo "success=false" >> $GITHUB_OUTPUT
+            rm -f dist/top-langs.svg  # 删除无效文件
           fi
 
-      - name: Check if files changed
-        id: verify-changed-files
+      - name: Download GitHub Stats Card (可选)
+        if: steps.download-stats.outputs.success == 'true'
         run: |
-          if [ -n "$(git status --porcelain assets/)" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
+          curl -sSL -o dist/github-stats.svg \
+            --retry 3 --retry-delay 2 --max-time 15 \
+            "https://github-readme-stats.vercel.app/api?username=EdinLyle&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" \
+            && grep -q "<svg" dist/github-stats.svg \
+            || rm -f dist/github-stats.svg
 
-      - name: Commit and push changes
-        if: steps.verify-changed-files.outputs.changed == 'true'
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/
-          git commit -m "🤖 自动更新 GitHub 统计图片 - $(date '+%Y-%m-%d %H:%M:%S')"
-          git push
+      - name: Deploy to output branch
+        if: steps.download-stats.outputs.success == 'true'   # 只有成功才部署
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: output       # 部署到 output 分支
+          folder: dist         # 只发布 dist 目录内容
+          clean: true          # 清理旧文件，保持分支整洁
+          git-config-name: github-actions[bot]
+          git-config-email: 41898282+github-actions[bot]@users.noreply.github.com
