@@ -156,9 +156,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Most Used Languages"/>
 </p> -->
 
-<!-- 新的本地缓存方案 -->
+<!-- 新的 output 分支引用（稳定可靠） -->
 <p align="center">
-  <img src="assets/top-langs.svg" alt="Most Used Languages" width="400"/>
+  <img src="https://raw.githubusercontent.com/EdinLyle/output/main/top-langs.svg" alt="Most Used Languages" width="400"/>
 </p>
 
 <p align="center">
