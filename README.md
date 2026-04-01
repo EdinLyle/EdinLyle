@@ -151,14 +151,8 @@
 
 ## 📊 GitHub Stats
 
-<!-- 原来无法显示的远程链接 -->
-<!-- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Most Used Languages"/>
-</p> -->
-
-<!-- 新的 output 分支引用（稳定可靠） -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EdinLyle/output/main/top-langs.svg" alt="Most Used Languages" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Most Used Languages"/>
 </p>
 
 <p align="center">
