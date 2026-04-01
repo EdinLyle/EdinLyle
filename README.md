@@ -151,8 +151,14 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<!-- 原来无法显示的远程链接 -->
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Most Used Languages"/>
+</p> -->
+
+<!-- 新的本地缓存方案 -->
+<p align="center">
+  <img src="assets/top-langs.svg" alt="Most Used Languages" width="400"/>
 </p>
 
 <p align="center">
@@ -167,7 +173,7 @@
   <a href="https://github.com/EdinLyle">
     <img src="https://img.shields.io/badge/GitHub-EdinLyle-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="https://blog.csdn.net/"><!-- TODO: 替换为你的 CSDN 主页链接 -->
+  <a href="https://blog.csdn.net/"><!-- TODO: 替换为 CSDN 主页链接 -->
     <img src="https://img.shields.io/badge/CSDN-Blog%20Star-FC5531?style=for-the-badge&logo=blog&logoColor=white" alt="CSDN"/>
   </a>
   <a href="mailto:3193698455@qq.com">
@@ -200,8 +206,7 @@
 <br>
 
 <div align="center">
-  <!-- 这里的蛇形贡献图需要你部署自己的 snake.svg，可参考 onewinner 的玩法 -->
-  <!-- 备选：先复用 onewinner 的链接调试效果，用好后再换成自己的仓库路径 -->
+  <!-- 这里的蛇形贡献图需要部署自己的 snake.svg -->
   <img src="https://raw.githubusercontent.com/EdinLyle/EdinLyle/output/snake.svg" alt="Snake animation" width="80%" />
 </div>
 
