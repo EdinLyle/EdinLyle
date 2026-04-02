@@ -151,9 +151,10 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
+<!-- github提供接口不稳定导致无法显示 -->
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EdinLyle&langs_count=10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9" alt="Most Used Languages"/>
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=EdinLyle&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff69b4" width="95%" alt="Contribution Graph"/>
