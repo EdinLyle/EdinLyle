@@ -60,6 +60,7 @@
 - 🧪 正在折腾：
   - 提示词注入攻防与 AI Gateway 安全基线工具（GMF / Caramel Pudding）
   - 安全知识库体系化整理与面向安全新人的知识地图
+  - 首届火山引擎AI安全攻防挑战赛A赛道个人挑战48名(菜鸡一个)
 - 📚 持续更新：
   - CSDN / 微信公众号：实战笔记、攻防工具踩坑记录、安全工具 Review
   - 安全全栈知识库：按领域拆分渗透、安服、运营、代码审计、工控、AI/LLM 等方向
@@ -89,18 +90,18 @@
       <h3 align="center">🔧 微信公众号</h3>
       <div align="center">
         <a href="https://mp.weixin.qq.com/s/Mx0inKTIqnXo6Ak1T9-RRw">
-          <img src="https://img.shields.io/badge/WeChat-网络安全笔记-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"/>
+          <img src="https://img.shields.io/badge/WeChat-网络安全笔记-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat" />
         </a>
-        <p>记录我的网安生涯:从入门到实战的学习笔记、攻防工具踩坑日记与技术思考，目前主要分享网络安全必备工具和AI安全攻防研究工具。</p>
+        <p>记录我的网安生涯：从入门到实战的学习笔记、攻防工具踩坑日记与技术思考，目前主要分享网络安全必备工具和 AI 安全攻防研究工具。</p>
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">🛡️ GMF</h3>
+      <h3 align="center">🍪 黄油曲奇 v1.2.0</h3>
       <div align="center">
-        <a href="https://github.com/EdinLyle/GMF">
-          <img src="https://img.shields.io/badge/Electron-提示词注入管理器-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="GMF"/>
+        <a href="https://github.com/EdinLyle/Butter_Cookie">
+          <img src="https://img.shields.io/badge/JavaScript-集成化渗透测试插件-00D9FF?style=for-the-badge&logo=javascript&logoColor=white" alt="Butter Cookie" />
         </a>
-        <p>GMF（提示词注入管理器）是一个功能强大的跨平台桌面应用程序，专门设计用于测试、管理和防御提示词注入攻击。它提供了一个综合平台来创建、组织、测试和分析各种提示词注入技术，帮助用户理解和防御AI系统中的安全漏洞。</p>
+        <p>黄油曲奇是一个集成化渗透测试浏览器插件，专为安全测试人员和开发者设计，提供了丰富的安全测试工具如信息收集、信息提取、XSS 测试、SQL 注入测试等，帮助快速识别和评估 Web 应用的安全漏洞。支持多个功能模块，界面直观，适合新手和非专业安全人员 [1][2]。</p>
       </div>
     </td>
   </tr>
@@ -109,18 +110,18 @@
       <h3 align="center">🦞 焦糖布丁</h3>
       <div align="center">
         <a href="https://github.com/EdinLyle/Caramel-Pudding">
-          <img src="https://img.shields.io/badge/Security-OpenClaw安全基线-00D9FF?style=for-the-badge&logo=shield&logoColor=white" alt="Caramel Pudding"/>
+          <img src="https://img.shields.io/badge/Security-OpenClaw安全基线-00D9FF?style=for-the-badge&logo=shield&logoColor=white" alt="Caramel Pudding" />
         </a>
-        <p>焦糖布丁（Caramel Pudding）是一款专用于的OpenClaw AI Gateway安全基线和漏洞检测工具，致力于为OpenClaw生态系统提供全面的安全保障。它采用多维度检测策略，深入分析OpenClaw的各个安全层面，帮助用户快速识别并修复潜在的安全风险。</p>
+        <p>焦糖布丁是一款专用于 OpenClaw AI Gateway 的安全基线和漏洞检测工具，致力于为 OpenClaw 生态系统提供全面的安全保障。采用多维度检测策略，深入分析，帮助用户快速识别并修复潜在安全风险 [3]。</p>
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">📚 安全知识库</h3>
+      <h3 align="center">📚 安全知识库(1100+订阅)</h3>
       <div align="center">
         <a href="https://ima.qq.com/wiki/?shareId=78720ffae80d296d4fc59b391916edad6f2036e7542cc7178bca3be6a429df85">
-          <img src="https://img.shields.io/badge/Knowledge-安全全栈知识库-000000?style=for-the-badge&logo=obsidian&logoColor=white" alt="Knowledge Base"/>
+          <img src="https://img.shields.io/badge/Knowledge-安全全栈知识库-000000?style=for-the-badge&logo=obsidian&logoColor=white" alt="Knowledge Base" />
         </a>
-        <p>整合日常学习、工作及网络所得笔记、安全大佬分析报告、面试题与技巧文档,安全大厂与安全标准，标准指南，按渗透、安服、运营、代码审计、内网、移动、应急、工控、AI/LLM安全、数据、业务、情报、分析、黑灰产对抗、SOC、溯源、钓鱼、区块链及加密货币等方向，系统构建个人持续迭代的安全全栈知识体系。</p>
+        <p>整合日常学习、工作及网络所得笔记、分析报告、面试题与技巧文档。涵盖渗透测试、安服、运营、代码审计、内网渗透、移动安全、应急响应、工控安全、AI/LLM 安全研究、数据、业务等方向，系统构建安全全栈知识体系。</p>
       </div>
     </td>
   </tr>
@@ -181,7 +182,7 @@
 ## 💡 Tech Philosophy
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=安全开发驱动防御升级，AI研究反哺攻防对抗，持续沉淀可复用的知识体系&author=0x八月" alt="Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=安全如同空气，熟视无睹，却又不可或缺&author=0x八月" alt="Quote"/>
 </p>
 
 <p align="center">
