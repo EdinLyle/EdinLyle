@@ -173,7 +173,7 @@
     <img src="https://img.shields.io/badge/CSDN-网络安全博客-FC5531?style=for-the-badge&logo=blogger&logoColor=white" alt="CSDN"/>
   </a>
   <a href="mailto:3193698455@qq.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/QQ邮箱-联系我-1E90FF?style=for-the-badge&logo=tencentqq&logoColor=white" alt="QQ邮箱"/>
   </a>
 </p>
 
