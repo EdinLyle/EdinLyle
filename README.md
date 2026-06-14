@@ -169,8 +169,8 @@
   <a href="https://github.com/EdinLyle">
     <img src="https://img.shields.io/badge/GitHub-EdinLyle-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="https://blog.csdn.net/"><!-- TODO: 替换为 CSDN 主页链接 -->
-    <img src="https://h0xsecdebug.blog.csdn.net%20Star-FC5531?style=for-the-badge&logo=blog&logoColor=white" alt="CSDN"/>
+  <a href="https://h0xsecdebug.blog.csdn.net/"><!-- TODO: 替换为 CSDN 主页链接 -->
+    <img src="https://img.shields.io/badge/CSDN-网络安全博客-FC5531?style=for-the-badge&logo=blogger&logoColor=white" alt="CSDN"/>
   </a>
   <a href="mailto:3193698455@qq.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
