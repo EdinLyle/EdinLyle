@@ -101,7 +101,7 @@
         <a href="https://github.com/EdinLyle/Butter_Cookie">
           <img src="https://img.shields.io/badge/JavaScript-集成化渗透测试插件-00D9FF?style=for-the-badge&logo=javascript&logoColor=white" alt="Butter Cookie" />
         </a>
-        <p>黄油曲奇是一个集成化渗透测试浏览器插件，专为安全测试人员和开发者设计，提供了丰富的安全测试工具如信息收集、信息提取、XSS 测试、SQL 注入测试等，帮助快速识别和评估 Web 应用的安全漏洞。支持多个功能模块，界面直观，适合新手和非专业安全人员 [1][2]。</p>
+        <p>黄油曲奇是一个集成化渗透测试浏览器插件，专为安全测试人员和开发者设计，提供了丰富的安全测试工具如信息收集、信息提取、XSS 测试、SQL 注入测试等，帮助快速识别和评估 Web 应用的安全漏洞。支持多个功能模块，界面直观，适合新手和非专业安全人员。</p>
       </div>
     </td>
   </tr>
@@ -112,7 +112,7 @@
         <a href="https://github.com/EdinLyle/Caramel-Pudding">
           <img src="https://img.shields.io/badge/Security-OpenClaw安全基线-00D9FF?style=for-the-badge&logo=shield&logoColor=white" alt="Caramel Pudding" />
         </a>
-        <p>焦糖布丁是一款专用于 OpenClaw AI Gateway 的安全基线和漏洞检测工具，致力于为 OpenClaw 生态系统提供全面的安全保障。采用多维度检测策略，深入分析，帮助用户快速识别并修复潜在安全风险 [3]。</p>
+        <p>焦糖布丁是一款专用于 OpenClaw AI Gateway 的安全基线和漏洞检测工具，致力于为 OpenClaw 生态系统提供全面的安全保障。采用多维度检测策略，深入分析，帮助用户快速识别并修复潜在安全风险。</p>
       </div>
     </td>
     <td width="50%">
